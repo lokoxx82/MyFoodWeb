@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\css\img\" />
     <Folder Include="Resources\js\" />
     <Folder Include="Resources\data\" />
     <Folder Include="Resources\img\" />
