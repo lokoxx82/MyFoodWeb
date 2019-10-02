@@ -4,4 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\css\img\" />
+    <Folder Include="Resources\js\" />
+    <Folder Include="Resources\data\" />
+    <Folder Include="Resources\img\" />
+    <Folder Include="Vendor\fonts\" />
+    <Folder Include="Vendor\js\" />
+  </ItemGroup>
+
 </Project>
