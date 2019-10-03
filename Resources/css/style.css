@@ -1,6 +1,6 @@
 /*
 Orange color: #e67e22
-
+Gray color : #555
 
 */
 
@@ -112,6 +112,40 @@ h3{
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 10px;
+    color: #e67e22;
+    
+    /*How to align text and icons vertically tips:*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -3px;
+    
+    
+}
+
+/*----------GENERIC LINKS-----------  */
+
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active{
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
 }
 
 /*----------BUTTONS-------------  */
@@ -298,8 +332,30 @@ header{
     margin-top: 40px;
 }
 
+.button-app:link,
+.button-app:visited{
+    border:0;
+}
+
 .button-app img{
     height: 50px;
     width: auto;
     padding-right: 3%;
+}
+
+
+/*-----------CITIES-----------  */
+
+.city{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+.city-features a{
+    color: #e67e22;
 }
