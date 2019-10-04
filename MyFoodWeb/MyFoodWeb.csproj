@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\js\" />
     <Folder Include="Resources\data\" />
     <Folder Include="Vendor\js\" />
   </ItemGroup>
