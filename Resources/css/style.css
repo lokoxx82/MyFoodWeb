@@ -240,7 +240,7 @@ header{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 90%;
-    border-bottom: 1px transparent #e67e22;
+    border-bottom: 0;
     transition: border-bottom 0.2s;
 }
 

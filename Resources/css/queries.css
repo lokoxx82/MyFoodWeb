@@ -1,0 +1,46 @@
+
+/* normal pc   from 1200*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width:100%;
+        padding: 0 2%;
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/* ipad portret  shit   from 768-1023px*/
+@media only screen and (max-width:1023px){
+    .main-nav{
+        margin-left: 20%;
+    }
+    
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .city-feature{
+        font-size: 90%;
+    }
+    
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* ipad tablet shit 481-767px */
+@media only screen and (max-width:767px){
+    
+}
+
+
+/* this is for small phones like ishit 5/6  from 0-480px */
+@media only screen and (max-width:480px){
+    
+}
