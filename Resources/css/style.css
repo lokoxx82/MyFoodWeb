@@ -201,6 +201,9 @@ input[type=submit]:active{
     color: #fff;
 }
 
+.btn-full[type=submit]{
+    cursor: pointer;
+}
 /*------------------------------  */
 /*HEADER                       */
 
@@ -271,6 +274,18 @@ header{
 .main-nav li a :active{
     border-bottom: 1px solid #e67e22;
 }
+
+/*MOBILE NAVIGATION*/
+
+.mobile-nav-icon{
+    color: #fff;
+    font-size: 200%;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
 
 /*sticky navigation  */
 

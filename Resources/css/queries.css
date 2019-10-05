@@ -71,7 +71,11 @@
         font-size: 80%;
     }
     .section-form{width: 100%;}
+    
 }
+
+
+
 
 /* ipad tablet shit 481-767px */
 @media only screen and (max-width:767px){
@@ -85,7 +89,41 @@
         margin: 0 0 4% 0;
         width: 100%}
     
-    .main-nav{display: none;}
+    .main-nav{
+        display: none;
+        float: left;
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+    
+    .main-nav li {
+        display: block;
+        margin: 10px;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+    
+    .sticky .main-nav{
+        float: left; 
+    }
+    
+     .sticky .main-nav li {
+        display: block;
+        margin: 0px;
+    }
+    
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    
+    .sticky .mobile-nav-icon{
+        display: inline-block;
+        color: #000;
+    }
     
     .long-copy{
         width: 100%;
@@ -96,7 +134,6 @@
     h1{font-size: 180%;}
     h2{font-size: 150%;}
     
-
     .works-steps{margin-bottom: 15px;}
     .works-step:last-of-type{margin-bottom: 20px;}
     .app-screen { width: 40%;}
@@ -116,6 +153,8 @@
     }
     
     .app-screen { width: 40%;}
+    
+    
 }
 
 
