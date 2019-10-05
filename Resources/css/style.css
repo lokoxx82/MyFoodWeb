@@ -639,3 +639,31 @@ footer p{
     text-align: center;
     font-size: 80%;
 }
+
+
+
+/*--------ANIMATIONS--------  */
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s; 
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+

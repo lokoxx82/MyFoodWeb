@@ -2,7 +2,7 @@
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
     /*STICKY navigation*/
    $('.js--section-features').waypoint(function(direction){
        if(direction=='down'){
@@ -39,7 +39,34 @@ $(document).ready(function(){
       });
     });
     
+    /*ANIMATIONS ON SCROLL*/
+    /*fade in FEATURES*/
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animated fadeIn');
+    },{
+        offset: '65%'
+    });
     
+    /*pulse the buy menu*/
+    $('.js--wp-3').waypoint(function(direction){
+        $('.js--wp-3').addClass('animated pulse');
+    },{
+        offset: '65%'
+    });
+    
+    /*insert phone image*/
+    $('.js--wp-2').waypoint(function(direction){
+       $('.js--wp-2').addClass('animated fadeInUp'); 
+    },{
+        offset: '65%'
+    });
+    
+     /*insert cities*/
+    $('.js--wp-4').waypoint(function(direction){
+        $('.js--wp-4').addClass('animated fadeIn');
+    },{
+        offset: '65%'
+    });
 });
 
 
